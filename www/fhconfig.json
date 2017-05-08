@@ -1,0 +1,17 @@
+{
+  "android": {
+    "senderID": "123o9u3",
+    "variantID": "107b0add-ced1-420e-8c61-225b56be8db6",
+    "variantSecret": "6ab0aeee-1bfa-4c34-8b95-48f0b6859b1b"
+  },
+  "appid": "fx46repjmlps7ctluplxxhfe",
+  "appkey": "8f992fb7bc2ade89f6ef969e5efab259a49e6a67",
+  "apptitle": "List Update SFDC Oppty Cordova App",
+  "connectiontag": "0.0.32",
+  "host": "https://mhu.us.demos.redhatmobile.com",
+  "ios": {
+    "variantID": "18f87a63-2322-47b1-9421-863397b4ac64",
+    "variantSecret": "92446719-8c5d-43db-b35e-05a4640512f5"
+  },
+  "projectid": "fx46repibijmcos4kxejg227"
+}

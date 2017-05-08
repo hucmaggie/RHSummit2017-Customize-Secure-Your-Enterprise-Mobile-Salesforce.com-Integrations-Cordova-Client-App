@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+ <head>
+  <script src="cordova.js"></script> 
+  <meta charset="utf-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"> 
+  <title>Red Hat Summit - Customize & Secure Your Enterprise Mobile Salesforce.com Integrations</title> 
+  <link rel="stylesheet" href="css/app.css"> 
+ </head> 
+ <body> 
+  <header class="header-footer-bg"> 
+   <div class="center"> 
+    <img SRC="img/rhsummit-logo.png" ALT="Red Hat Summit Logo"> 
+    <h3>Customize & Secure Your Enterprise Mobile Salesforce.com Integrations<br> 
+     <!-- <small>Opportunities List & Update</small> --> </h3> 
+   </div> 
+  </header> 
+  <div id="count" class=""> 
+   <div id="formWrapper"> 
+    <p id="description">This app will retrieve a list of your Opportunities from <b><font color="#009CDB">Salesforce.com</font></b> via <b><font color="red">Red Hat JBoss Fuse</font></b>, and allow you to close an Opportunity. Fuse will then send a push notification back to mobile that the opportunity has been closed.</p> 
+    <p> <button id="opportunityBtn" type="button" class="say-hello-button">List my SFDC Opportunities!</button> </p>
+    <div id="cloudResponse" class="cloudResponse"></div> 
+    <table id="opportunities"> 
+     <thead> 
+      <tr> 
+       <th>Close Oppty</th> 
+       <th>Oppty Name</th> 
+       <!--<th>Acct Id</th>-->
+       <th>Amount</th> 
+       <th>Stage</th> 
+       <th>Oppty Id</th> 
+      </tr> 
+     </thead> 
+     <tbody> 
+     </tbody> 
+    </table> 
+   </div> 
+  </div> 
+  <script src="feedhenry.js"></script> 
+  <script src="hello.js"></script>
+  <script src="push.js"></script>
+
+  <script type="text/javascript" src="cordova.js"></script>
+  <script type="text/javascript" src="main.js"></script>
+  <script type="text/javascript" src="js/index.js"></script>
+
+ </body>
+</html>

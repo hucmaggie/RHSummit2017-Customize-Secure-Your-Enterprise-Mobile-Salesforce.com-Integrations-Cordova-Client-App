@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <widget android-versionCode="1" id="com.redhat.ios.pushapp.fuse" ios-CFBundleVersion="1.0" version="1.0"> -->
+<widget id="com.redhat.ios.pushapp.fuse" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Fuse-SFDC</name>
+     <author email="mhu@redhat.com" href="mhu@redhat.com">
+        Maggie Hu
+    </author>
+    <content src="index.html" />
+    <!--
+    <access origin="*"/>
+    <access origin="cdvfile://*"/>
+    -->
+    <plugin name="cordova-plugin-device" spec="1.1.2"/>
+    <plugin name="cordova-plugin-network-information" spec="1.2.1"/>
+    <plugin name="cordova-plugin-battery-status" spec="1.1.2"/>
+    <plugin name="cordova-plugin-device-motion" spec="1.2.1"/>
+    <plugin name="cordova-plugin-device-orientation" spec="1.0.3"/>
+    <plugin name="cordova-plugin-geolocation" spec="2.4.1"/>
+    <plugin name="cordova-plugin-file" spec="4.2.0"/>
+    <plugin name="cordova-plugin-camera" spec="2.3.1"/>
+    <plugin name="cordova-plugin-media" spec="2.4.1"/>
+    <plugin name="cordova-plugin-media-capture" spec="1.4.1"/>
+    <plugin name="cordova-plugin-file-transfer" spec="1.5.1"/>
+    <plugin name="cordova-plugin-dialogs" spec="1.2.1"/>
+    <plugin name="cordova-plugin-vibration" spec="0.3.7"/>
+    <plugin name="cordova-plugin-contacts" spec="2.1.0"/>
+    <plugin name="cordova-plugin-globalization" spec="1.0.3"/>
+    <plugin name="cordova-plugin-inappbrowser" spec="1.4.0"/>
+    <plugin name="cordova-plugin-console" spec="1.0.3"/>
+    <!--<plugin name="cordova-plugin-whitelist" spec="1.2.2"/>-->
+    <plugin name="cordova-plugin-screen-orientation" spec="v1.4.2"/>
+    <plugin name="com.feedhenry.plugins.apkdownloader" spec="https://github.com/feedhenry/fh-cordova-plugin-apkdownloader.git#fh0.0.1"/>
+    <plugin name="fh-cordova-plugin-device " spec="https://github.com/feedhenry/fh-cordova-plugin-device.git#fh0.0.3"/>
+    <plugin name="cordova-sms-plugin" spec="v0.1.11"/>
+    <plugin name="cordova-plugin-statusbar" spec="~2.2.1"/>
+    <plugin name="fh-cordova-plugin-smsbuilder" spec="https://github.com/feedhenry/sms-builder.git#fh0.1.2"/>
+    <plugin name="fh-cordova-plugin-ftputil" spec="https://github.com/feedhenry/fh-cordova-plugin-ftputil.git#fh0.0.2"/>
+    <plugin name="cordova-plugin-splashscreen" spec="~4.0.1"/>
+
+    <!-- for push notifications -->
+    <access origin="https://*.us.demos.redhatmobile.com" />
+    <plugin name="cordova-plugin-whitelist" spec="https://github.com/apache/cordova-plugin-whitelist"/>
+    <plugin name="aerogear-cordova-push" spec="https://github.com/aerogear/aerogear-cordova-push#3.1.0"/>
+
+    <preference name="ShowSplashScreenSpinner" value="true"/>
+    <preference name="AutoHideSplashScreen" value="true"/>
+</widget>
